@@ -48,13 +48,11 @@ def make_ping(ip:str, port:int) -> bool:
         return False
 
 
-result = find_clients("192.168.1.0/24", 5000)
-
-while not result.empty():
+#result = find_clients("192.168.1.0/24", 5000)
+#192.168.1.0/24, 5000
+'''while not result.empty():
     ip, port = result.get()
     print(ip, port)
-    get_report(ip, port)
+    get_report(ip, port)'''
 
-print("done")
-
-
+#print("done")
